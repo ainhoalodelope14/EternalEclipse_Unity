@@ -1,0 +1,31 @@
+# Ignorar carpetas generadas por Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# Ignorar archivos generados por IDE
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.suo
+*.pdb
+*.mdb
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos binarios que normalmente no quieres subir
+*.dll
+*.so
+*.dylib
+
+# ❌ Pero queremos subir el ejecutable de Unity
+# Suponiendo que se llama EternalEclipse.exe
+!EternalEclipse.exe
