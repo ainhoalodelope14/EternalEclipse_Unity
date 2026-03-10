@@ -22,10 +22,7 @@
 Thumbs.db
 
 # Archivos binarios que normalmente no quieres subir
-*.dll
 *.so
 *.dylib
 
-# ❌ Pero queremos subir el ejecutable de Unity
-# Suponiendo que se llama EternalEclipse.exe
-!EternalEclipse.exe
+!EternalEclipse_ejecutable/UnityPlayer.dll
